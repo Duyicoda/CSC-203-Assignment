@@ -1,0 +1,26 @@
+
+*{
+margin:10px;
+padding: 10px;
+}
+    h1{
+    color: blueviolet;
+    font-family: cursive;
+    }
+    
+    h4{
+        color: blueviolet;
+        font-family: cursive;
+        }
+
+
+       abbr{
+        margin-top: 40px;
+        }
+
+
+        div{
+        height: 50%;
+        width:80%;
+        border: 1px solid;
+        }

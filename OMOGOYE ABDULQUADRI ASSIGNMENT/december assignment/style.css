@@ -1,0 +1,385 @@
+body{
+  background-image: url(selfie/IMG-20240902-WA0013.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#header-container{
+  height: 600px;
+  background-color: rgba(247, 242, 242, 0.61);
+}
+
+
+#main-header{
+  width: 1150px;
+  height: 700px;
+  background-image: url(selfie/IMG-20240902-WA0013.jpg);
+  margin: auto;
+}
+
+#navigation-container{
+  height:  50px;
+  background-color: rgb(35, 37, 35);
+  background-image: url();
+  }
+
+  #main-navigation{
+    width: 1000px;
+    height: 50px;
+    background-color: gray;
+    margin: auto;
+    background-image: url();
+    border-radius: 5px;
+  }
+
+  #main-navigation a{
+    text-decoration: none;
+    color: white;
+    padding:0 55px;
+    line-height: 50px;
+    border-left: 1px inset rgb(26, 24, 24);
+    border-right: 2px inset rgb(15, 14, 14);
+    float:left;
+   
+  }
+
+  #main-navigation a:hover{
+    color: beige;
+    background-image: url(selfie/Screenshot_20240902-181238_Photos.jpg);
+
+
+  }
+
+#headline-container{
+  height: 25px;
+  background-color: gray;
+ }
+
+#main-headline{
+  width: 1500px;
+  height: 25px;
+  background-color: rgb(255, 208, 0);
+  margin: auto;
+  }
+#main-headline marquee{
+  color: rgb(12, 11, 11);
+  line-height:25px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  }
+
+#content-container{
+  height: 950px;
+  background-color: rgba(248, 239, 239, 0.288);
+  padding: 30px;
+  margin: auto;
+  
+  }
+ 
+#slide{
+  background-image: url(selfie/Screenshot_20240902-181238_Photos.jpg);
+  height: 900px;
+  background-size:contain;
+  border-radius: 25px;
+  width: 1400px;
+  margin: auto;
+  margin-top: 100px; 
+ }
+
+#slide h2{
+  line-height: 100px;
+  text-emphasis: center;
+} 
+
+.about{
+  height: 230px;
+  border: 2px solid white;
+  border-radius:15px ;
+  margin: 30px 0;
+}
+
+.about-picture{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 15px;
+}
+
+.about-picture img{
+  border-radius: 100%;
+}
+
+.about h2{
+  color: #10f10c;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.about p{
+  color: #ffffff;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.about a{
+  color:white ;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 7px 25px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #11e90e;
+}
+
+
+.about a:hover{
+  background-color: #ffffff;
+  color: #014400;
+}
+
+
+.gallery img{
+  height:200px ;
+  width: 200px;
+  margin: 15px;
+  border-radius: 30px;
+  transition: 1s;
+  }
+
+  .gallery img:hover{
+    transform: scale(1.2);
+    filter:grayscale(100%) ;
+    
+  }
+
+
+
+  #services {
+    background-size: cover;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #10f10c;
+    color: #11ff00;
+    background-attachment: fixed;
+    background-image: url(images/gallery/02.jpg);
+    }
+  
+  #services h2{
+    color: #fdf5f5;
+    line-height: 50px;
+    text-align: center;
+    font-size: 35px; 
+  }
+
+
+
+  #register td{
+    color: #ffffff;
+    line-height: 50px;
+  }
+  
+  #register fieldset{
+    border: 1p solid white;
+    border-radius: 15px;
+  
+  }
+  
+  #register legend{
+    background-color: rgb(241, 159, 7);
+    padding: 10px 25px;
+    border-radius: 7px;
+    color: #201e1e;
+    font-size: 20px;
+  }
+  
+  
+  #register input[type=text]{
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border:solid 1px rgb(233, 154, 8);
+  }
+  
+  #register input[type=text]:focus, input[type=password]:focus{
+    background-color: #f1a10c;
+  }
+  
+  #register input[type=submit], input[type=reset]{
+    padding: 8px 20px;
+    background-color: #f7ab07;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #register input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #201e1e;
+  }
+
+
+  #contact th{
+    border: 1px solid white;
+    background-color: wheat;
+    color: rgb(235, 129, 8);
+    font-size: 20px;
+    padding: 7px;
+
+   }
+
+   #contact td{
+    border: 1px solid white;
+    padding: 7px;
+   }
+
+   #contact a{
+    text-decoration: none;
+    color: #1a1917;
+    font-size: 14px;
+    font-style: italic;
+   }
+
+   #contact a:hover{
+    color: #636363;
+    text-decoration: underline;
+    
+   }
+
+   .bracnch{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #25fd11;
+   }
+
+   .phcn{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(247, 162, 5);
+    background-color: #1a04db;
+
+   }
+
+   .locale{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #da0b95;
+
+  
+  
+   }
+   
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-container{
+  height: 300px;
+  margin-top: 15px;
+  background-color: #f7ab07;
+}
+
+#footer-top{
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+}
+
+.footer-info{
+  width: 220px;
+  height: 300px;
+  margin: 0 15px;
+  float: left;
+}
+
+.footer-info h2{
+  font-size: 25px;
+  margin: 15px 0;
+  color: rgb(240, 236, 227);
+  border-bottom: solid 2px;
+  text-decoration: double;
+}
+
+.footer-info p{
+  color: rgb(243, 240, 236);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-info a{
+  color: rgb(112, 110, 107);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-info a:hover{
+  color: rgb(90, 90, 88);
+  text-decoration: underline;
+}
+
+.footer-info li{
+  color: rgb(94, 91, 91);
+  font-size: 16px;
+  list-style-image: url(images/png/clock.png) ;
+  line-height: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-info ul{
+  padding: 0 25px;
+}
+
+.social{
+  height: 56px;
+  margin: 15px 0;
+}
+
+.social-icon{
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 10px;
+}
+
+#footer-bottom{
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+  background-color: black;
+}
+
+
+#footer-bottom p{
+  color: white;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+#footer-bottom a:hover{
+  color: #e77000;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+   

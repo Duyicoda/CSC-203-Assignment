@@ -1,0 +1,28 @@
+button {
+    margin-left: 500px;
+    width: 200px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 1.5s;
+    background-color: #ff7200;
+}
+h2{
+    font-size: 45px;
+    font-family: Arial;
+}
+main{
+    font-size: 28px;
+}
+h1{
+    margin-left: 250px;
+}
+
+body{
+    background-image:   url(../../../../Pictures/orsrc42083.png);
+    width: 100vh;
+    height: 100px;
+    background-repeat: no-repeat;
+}

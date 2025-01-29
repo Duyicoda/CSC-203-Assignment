@@ -1,0 +1,20 @@
+body{
+    font-size: larger;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: brown;
+    margin-left: 350PX;
+}
+p{
+    font-size: 20px; 
+    color: rgb(11, 11, 23);
+}
+a{
+    font-size: x-large; color: black;
+}

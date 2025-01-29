@@ -1,0 +1,188 @@
+.header h2 {
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(234, 236, 239);
+    font-weight: bold;
+}
+.header p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.5%;
+    color: white;
+}
+.card {
+    margin-left: 10%;
+    background-color: white;
+    width: 68%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.463);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 15, 128, 0.647);
+}
+
+.box {
+    margin-top: 10px;
+}
+
+.box input {
+    margin-right: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.bix {
+    display: flex;
+}
+
+.bix p {
+    margin-right: 260px;
+    font-size: 15px;
+}
+
+.dat {
+    margin-top: 10px;
+}
+
+.dat select {
+    margin-right: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.fav {
+    display: flex;
+}
+
+.fav p {
+    margin-right: 290px;
+    font-size: 15px;
+}
+
+.radio {
+    display: flex;
+    margin-top: 10px;
+}
+
+.radio span {
+    margin-left: 100px;
+}
+
+.phone input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.phone {
+    margin-top: 10px;
+}
+
+
+.address {
+    margin-top: 10px;
+}
+
+.address input {
+    width: 990px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.address p {
+    font-size: 15px;
+}
+
+.vic input {
+    margin-right: 15px;
+    width: 485px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.join {
+    display: flex;
+}
+
+.join p {
+    margin-right: 500px;
+}
+
+.ioo {
+    display: flex;
+}
+
+.ioo p {
+    margin-right: 450px;
+    font-size: 15px;
+}
+
+.relationship input {
+    margin-top: 10px;
+    width: 485px;
+    height: 30px;
+}
+
+.email2 {
+    margin-top: 10px;
+}
+
+.email2 input {
+    margin-top: 10px;
+    width: 990px;
+    height: 30px;
+}
+
+.mate {
+    margin-top: 15px;
+}
+
+.mate input {
+    margin-left: 5px;
+    width: 245px;
+    height: 30px;
+}
+
+.morn {
+    margin-top: 10px;
+}
+.radio2 {
+    display: flex;
+}
+
+.radio2 p {
+    margin-right: 60px;
+}
+
+.address select {
+    margin-top: 10px;
+    height: 35px;
+    width: 370px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.submit button {
+    background-color: rgba(0, 0, 255, 0.356);
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    width: 100px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    transition: 1s;
+    background-color: blue;
+    transform: scaleX(1.1);
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.142);
+}

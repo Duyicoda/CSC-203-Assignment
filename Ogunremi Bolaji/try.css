@@ -1,0 +1,291 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block; 
+margin: 0 ;
+padding: 0;
+    }
+    body{
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    }
+
+header{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+ flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+    border:0px solid;
+    background-color: black;
+  position: absolute;
+  top: -10px;
+    }
+    .fir{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:0px solid;
+    background-color: black;
+    }
+.sec{
+    width: 100%;
+    height: 72%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border:0px solid;
+    background-color: white;
+    
+}
+.con{
+    width: 24%;
+    height: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border:0px solid white;
+margin-right: 220px;
+}
+ .cont{
+    width:14%;
+    height: 85%;
+    background-image: url('download.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+  
+ } 
+ .pp{
+color: white;
+font-weight: bold;
+font-family: calibri;
+font-size: 14px;
+ }
+.logo{
+    width:15%;
+    height: 40px;
+    border:0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    }
+    .mes{
+        width:60%;
+        height:80%;
+        border-left:01px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .mesI{
+        width: 30%;
+        height: 90%;
+        background-image: url('message.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .logIm{
+    width: 30%;
+    height: 50%;
+    background-image: url('handbag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:calibri;
+    color:rgb(149, 82, 211)
+    }
+    ul{
+        width: 60%;
+        height: 67%;
+        border: 0px solid;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        margin-left: 00px;
+        }
+        li{
+        margin: 15px;
+        color: black;
+        font-size: 16px;
+        font-family: calibri;
+        font-weight: bold;
+        }
+        a{
+        color: black;
+        }    
+
+        .soc{
+            width: 12%;
+            height: 47%;
+            border: 0px solid white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: 400px;
+            margin-top: 10px;
+            }
+            .so1{
+            width: 100%;
+            height: 100%;
+            border: 0px solid blueviolet; 
+            background-image: url('icons8-facebook-150.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+            }
+            .so2{
+            width: 100%;
+            height: 100%;
+            border: 0px solid;
+            background-image: url('icons8-twitter-150.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            }
+            .so3{
+                width: 100%;
+                height: 100%;
+                border: 0px solid;
+                background-image: url('icons8-instagram-150.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                }
+                .so4{
+                    width: 100%;
+                    height: 100%;
+                    border: 0px solid;
+                    background-image: url('icons8-telegram-150.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    }
+                    .profile{
+                        width: 100%;
+                        height: 530px;
+                        border: 0;
+                        margin-top: 60px;
+                        background-color: rgb(149, 82, 211);
+                        border-radius: 0px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+                        }
+                        .pro1{
+                        width: 40%;
+                        height: 60%;
+                        border: 0px solid;
+                        margin-left: 100px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 40px;
+                        }
+                       
+                        .P1{
+                        font-size: 50px;
+                        font-family: calibri;
+                        color: white;
+                        margin-left: 40px;
+                        font-weight: bold;
+                        position: absolute;
+                        
+                        }
+                        .p2{
+                            font-size: 12px;
+                            font-family: calibri;
+                            color: white;
+                            margin-left: 40px;
+                            font-weight: bold;   
+                        margin-top: 130px;
+                        }
+                        .par{
+                        width: 100%;
+                        height: 80%;
+                        border: 0px solid;
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                        }
+                        button{
+                        width: 130px;
+                        height:50px;
+                        margin-left: 40px;
+                        font-family: calibri;
+                       border: solid white;
+                        border-top-left-radius: 10px ;
+                        border-bottom-right-radius: 10px;font-weight: bold;
+                        background-color:white;
+                        color: black;
+                        margin-bottom: 70px;
+                        }
+                        .mySlides {display: none;}
+                       
+                        
+                        .slideshow-container {
+                         width: 40%;
+                        height: 90%;
+                        border: 0px solid;
+                       
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                     overflow: hidden;
+                
+                     margin-top: 18px;
+                        }
+                        
+                       img{
+                        width: 100%;
+                        height: 100%;
+                        border: 0px solid;
+                  
+                      
+                       object-fit: cover;
+                       }
+                        
+                 
+                        
+                        
+                        
+                        /* Fading animation */
+                        .fade {
+                          animation-name: fade;
+                          animation-duration: 1.5s;
+                        }
+                        
+                        @keyframes fade {
+                          from {opacity: .4} 
+                          to {opacity: 1}
+                        }
+                        
+
+
+.bestP{
+width: 100%;
+height: 300px;
+background-color: pink;
+margin-top: 10px;
+}

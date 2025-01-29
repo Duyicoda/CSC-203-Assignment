@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    background: #ffffff; /* White background for the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size for input text */
+}
+
+input[type="submit"] {
+    background-color: #35424a; /* Dark background for submit button */
+    color: #ffffff; /* White text for submit button */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #2c3e50; /* Darker shade on hover */
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.food-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.food-gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+      <h>EVANS CATERING SERVICE</h>
+        <h1>Welcome to Our Catering Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide delicious catering services for all occasions!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="food-gallery">
+            <img src="food1.jpg" alt="Food 1">
+            <img src="food2.jpg" alt="Food 2">
+            <img src="food3.jpg" alt="Food 3">
+            <img src="food4.jpg" alt="Food 4">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="thankyou.html" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your comment about our food:</label>
+      <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Evans Catering Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

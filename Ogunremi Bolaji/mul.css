@@ -1,0 +1,12 @@
+@media only screen and (max-width: 760px) {
+    body {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    div{
+    width: 60px;
+    }
+  }

@@ -1,0 +1,33 @@
+/* 
+.iframeembed {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.embedvideo {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.embedaudio {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.embedyoutube {
+    width: 20%;
+    float: left;
+    padding: 20px;
+} */
+
+
+@media screen and (max-width: 780px) {
+    .embedvideo 
+    .embedyoutube 
+    .iframeembed
+    .embedaudio
+    {width:  100%;}
+}
